@@ -1,0 +1,1 @@
+"use strict";setInterval(function(){console.log("成功")},1e3);

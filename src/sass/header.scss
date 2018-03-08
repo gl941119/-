@@ -1,0 +1,23 @@
+*{margin: 0;padding: 0;}
+
+$hw:1263px;
+@mixin box($width,$height,$color){
+    width: $width;
+    height: $height;
+    border: 1px solid $color;
+}
+.hd{
+    width: $hw;
+    border: 1px solid red;
+    .hd-warp{
+        @include box(1200px,30px)
+        margin: 0 auto;
+        .hd-left{
+            @include box(90px,30px)
+        }
+        .hd-right{
+           @include box(230px,30px)
+        }
+        
+    }
+}

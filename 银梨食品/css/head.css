@@ -1,0 +1,241 @@
+﻿@CHARSET "UTF-8";
+/*顶部工具栏样式*/
+header{
+    position: relative;
+}
+.sp-header-bg{
+    background: #f1f1f1;
+}
+.tool-nav{
+    height: 30px;
+    line-height: 30px;
+    background: #f1f1f1;
+}
+.site-nav>li{
+    padding: 0 10px;
+    margin-top: -2px;
+    float: left;
+}
+.site-nav li a{
+    line-height: 30px;
+}
+li.spacer{
+    width: 1px;
+    height: 10px;
+    background-color: #c0c0c0;
+    padding: 0;
+    margin-top: 10px;
+}
+.tool-nav::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.site-nav a:hover{
+    color: #7bbe2b;
+}
+/*搜索栏样式*/
+/*logo样式*/
+.sp-header{
+    height: 100px;
+    background: white;
+}
+.sp-header-padding{
+    padding: 30px 0 0;
+}
+/*搜索框与左侧间距*/
+.sp-box-left{
+    margin-left: 20px;
+}
+.sp-box-margin-left{
+    margin-left: 150px;
+}
+/*搜索热词样式*/
+.keyword{
+    border: 1px solid #ffc000;
+    height: 36px;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    width: 502px;
+    padding: 0 10px;
+    float: left;
+    color: #333;
+}
+.search-btn{
+    background: #ffc000;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    height: 38px;
+    width: 82px;
+    float: left;
+    font-size: 18px;
+    color: white;
+    cursor:pointer;
+}
+.search-bar::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.search-word{
+    padding-left: 10px;
+}
+.search-word>a{
+    color: #c0c0c0;
+    margin-right: 8px;
+}
+.search-word>a:hover,.shopping-btn a:hover{
+    color: #ffc000;
+}
+/*购物车样式*/
+.shopping-btn{
+    border: 1px solid #ffc000;
+    width: 108px;
+    height: 36px;
+    line-height: 34px;
+    border-radius: 4px;
+    position: relative;
+    padding-left: 50px;
+    right: 0px;
+}
+.shopping-btn>a{
+    font-size: 14px;
+}
+.icon-car{
+    left: 20px;
+    top: 6px;
+    background-position: 0 -150px;
+}
+.icon-gt{
+    right: 20px;
+    top: 14px;
+    width: 5px;
+    height: 9px;
+    background-position: -90px -150px;
+}
+.icon-balloon{
+    width: 16px;
+    height: 15px;
+    background-position: -150px -120px;
+    line-height: 15px;
+    text-align: center;
+    color: white;
+    top: -10px;
+    right: -5px;
+}
+.product_number{
+    position: absolute;
+    top: -5px;
+    right: -10px;
+    display: block;
+    line-height: 15px;
+    padding: 0 3px;
+    border-radius: 7px 7px 7px 0;
+    border: 1px solid #7bbe2b;
+    background: #7bbe2b;
+    color: #fff;
+    min-height: 15px;
+    min-width: 6px;
+}
+/*客服电话样式*/
+.s_tel{
+    position: relative;
+}
+.service{
+    position: absolute;
+    z-index: 10000;
+    background: white;
+    padding: 10px;
+    left: -1px;
+    top: 29px;
+    width: 98px;
+}
+/*===yangsiyu==(2017-02-16)==导航栏浮动固定=====*/
+.header_fixed{
+    height: 29px;
+    width: 100%;
+    min-width:1100px;
+    position: fixed;
+    top: 0px;
+    z-index: 1000;
+    border-bottom: 2px solid #7bbe2b;
+    padding: 6px 0 13px 0;
+    background-color: rgba(255, 255, 255, 0.85);
+}
+.header_fixed .sp-box-margin-left{
+    margin-left: 274px;
+}
+.header_fixed .sp-header-padding{
+    padding: 0;
+}
+.header_fixed .association_box{
+    top: 43px;
+}
+.header_fixed .search-word{
+    display: none;
+}
+.fill_nav{
+    height: 50px;
+}
+.specil_fixed .sp-tab-btn{
+    top: 7px;
+    margin: 0 0 0 849px;
+    height: 38px;
+    line-height: 38px;
+    background: #7bbe2b;
+    color: white;
+}
+.specil_fixed .sp-tab-ul{
+    top: 0px;
+}
+.specil_fixed .sp-tab-btn , .specil_fixed .sp-tab-ul{
+    position: fixed;
+    z-index: 11111;
+}
+/*结算页头部样式*/
+.sp-logo-title{
+    margin-left: 10px;
+}
+.association_box{
+    background: white;
+    position: absolute;
+    top: 97px;
+    z-index: 11111;
+    border: 1px solid #ccc;
+    _overflow: hidden;
+    box-shadow: 1px 1px 3px #ededed;
+    -webkit-box-shadow: 1px 1px 3px #ededed;
+    -moz-box-shadow: 1px 1px 3px #ededed;
+    -o-box-shadow: 1px 1px 3px #ededed;
+}
+#get_cookie{
+    width: 521px;
+}
+#get_cookie li{
+    padding: 0 10px;
+    line-height: 25px;
+    cursor: pointer;
+    font-weight: bold;
+}
+#get_cookie li:hover, .choose_this{
+    background: #fffbef;
+}
+/*顶部添加app下载样式*/
+.app-download{
+	position: absolute;
+    z-index: 100;
+    background: white;
+    border-top: none;
+    top: 30px;
+    width: 266px;
+    right: 10px;
+    padding: 16px 16px 6px;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+}
+.android{
+	margin-right:30px;
+}
