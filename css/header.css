@@ -1,0 +1,8 @@
+html, body, h1, h2, h3, h4, h5, h6, div, p, dl, dt, dd, ol, ul, li,
+table, th, td, tr, caption,header, footer, section, aside, nav, figure, figcaption,
+a, img, span, strong, var, em, small, i, sub, sup,
+form, input, textarea, select, option, iframe, pre {
+    margin: 0;
+    padding: 0;
+}
+
